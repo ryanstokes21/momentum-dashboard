@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <script type="module" src="./js/main.js"></script>
-    <title>DashBoard</title>
+    <title>Dashboard</title>
   </head>
   <body>
-    <div class="dashboard-layout"></div>
+    <div class="dashboard-layout">
+      <aside class="sidebar">
+        <h1 class="logo"><span>M</span>omentum</h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/tasks.html">Tasks</a></li>
+            <li><a href="./pages/fitness.html">Fitness</a></li>
+            <li><a href="./pages/finance.html">Finance</a></li>
+            <li><a href="./pages/habits.html">Habits</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <header class="main-header">
+        <div class="search-bar">
+          <input type="search" id="global-search" placeholder="Search..." />
+        </div>
+        <img
+          src="./assets/images/profile-placeholder copy.jpeg"
+          alt="Default profile image"
+          id="profile-picture"
+        />
+      </header>
+      <main class="main-content">
+        <section class="dashboard-page">
+          <h2>Dashboard</h2>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
