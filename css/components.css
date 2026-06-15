@@ -1,0 +1,80 @@
+.logo {
+  margin: 0 0 2rem;
+  color: var(--text-main);
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: var(--accent-dark);
+  font-size: var(--font-size-xl);
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  outline: none;
+  background: var(--bg-card);
+}
+
+.search-bar input:focus {
+  border: 1px solid var(--accent-primary);
+  color: var(--text-main);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  display: block;
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: var(--transition-fast);
+}
+
+.nav-list a:hover,
+.nav-list a.active {
+  background: var(--bg-card);
+  color: var(--text-main);
+}
+
+.nav-list a.active {
+  border: 1px solid var(--accent-primary);
+}
+
+.sidebar-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-main);
+}
+
+.sidebar-profile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar-profile p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.sidebar-profile small {
+  color: var(--text-muted);
+}
