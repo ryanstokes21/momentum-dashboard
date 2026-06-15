@@ -10,21 +10,33 @@
   <body>
     <div class="dashboard-layout">
       <aside class="sidebar">
-        <h1 class="logo"><span>𝕸</span>omentum</h1>
+        <div>
+          <h1 class="logo"><span>𝕸</span>omentum</h1>
 
-        <div class="search-bar">
-          <input type="search" id="global-search" placeholder="Search..." />
+          <div class="search-bar">
+            <input type="search" id="global-search" placeholder="Search..." />
+          </div>
+
+          <nav aria-label="Main navigation">
+            <ul class="nav-list">
+              <li><a class="active" href="./index.html">Dashboard</a></li>
+              <li><a href="./pages/tasks.html">Tasks</a></li>
+              <li><a href="./pages/fitness.html">Fitness</a></li>
+              <li><a href="./pages/finance.html">Finance</a></li>
+              <li><a href="./pages/habits.html">Habits</a></li>
+            </ul>
+          </nav>
         </div>
-
-        <nav aria-label="Main navigation">
-          <ul class="nav-list">
-            <li><a class="active" href="./index.html">Dashboard</a></li>
-            <li><a href="./pages/tasks.html">Tasks</a></li>
-            <li><a href="./pages/fitness.html">Fitness</a></li>
-            <li><a href="./pages/finance.html">Finance</a></li>
-            <li><a href="./pages/habits.html">Habits</a></li>
-          </ul>
-        </nav>
+        <div class="sidebar-profile">
+          <img
+            src="./assets/images/profile-placeholder copy.jpeg"
+            alt="Profile picture"
+          />
+          <div>
+            <p>Ryan</p>
+            <small>Keep moving.</small>
+          </div>
+        </div>
       </aside>
       <main class="main-content">
         <section class="dashboard-page">
